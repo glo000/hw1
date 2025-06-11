@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: Kumbh Sans;
+    color:white;
+}
+
+#logo{
+    padding: 25px 0 25px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+#logo img{
+    width: 70px;
+  }
+
+main{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.main_right h1{
+    font-size:40px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    padding: 0px 12px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #5a5a5a;
+    color:#7d7d7d;
+    margin-top: 7px;
+    font-size: 19px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+  }
+
+  .name, .surname, .username, .email, .password, .confirm_password, .fileupload{
+    width: 100%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.allow{
+    display: flex;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.allow input{
+    width: 20px;
+    height: 20px;
+}
+
+.allow label{
+    margin-top: 4px;
+    margin-left: 10px;
+    color:rgb(112, 111, 111);
+}
+
+
+form span {
+    opacity: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.errorj label {
+    color: #d01b2d;
+}
+
+.errorj span {
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+}
+
+.errorj img {
+    opacity: 1;
+}
+
+.errorj input, .errorj #upload {
+    border-color: #d01b2d;
+}
+
+.submit input{
+    margin-top: 30px;
+    border-radius: 50px;
+    height: 50px;
+    width: 40%;
+    font-size: 18px;
+    font-weight:800;
+    font-family: Kumbh Sans;
+    line-height: 1;
+    letter-spacing: 1.5px;
+    color: #000000;
+    background-color: #07b535;
+    border-color: #07b535;
+}
+
+.submit input:hover{
+    cursor: pointer;
+    background-color: #0ae75b;
+}
+
+.signup{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color:#5a5a5a;
+}
+
+.signup a{
+    color:white;
+}

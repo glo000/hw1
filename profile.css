@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(10, 10, 10);
+  margin: 0;
+  font-family: Kumbh Sans;
+  color:white;
+}
+
+header{
+  position:fixed;
+  top:0;
+   
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(185, 185, 185);
+  font-size: 19px;
+  font-weight: 500;
+  width:100%;
+  height: 9vh;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-left{
+  padding-left: 2%;
+}
+
+.flex-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+#logo img{
+width: 50px;
+}
+    
+
+.separatore{
+  background-color: rgb(185, 185, 185);
+  width: 1px;
+  height: 30px;
+  margin-right: 6px;
+}
+
+#nav-right{
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding-right:11%;
+  cursor:pointer;
+}
+
+
+.item-link:hover{
+  color:white;
+}
+
+#link-left-sep{
+  display:flex;
+  gap:10px;
+}
+
+#link-right-sep{
+  font-size:17px;
+  font-weight: 700;
+  display:flex;
+  align-items: center;
+  gap:30px;
+}
+
+
+#menu{
+  display: none;
+}
+
+#menu img{
+  width: 20px;
+}
+  
+#menu:hover{
+  background-color: rgb(30, 29, 29);
+  border-radius: 100px;
+  padding: 10px 1px;
+  margin-left: -2.5px;
+}
+    
+  h1{
+      font-size: 30px;
+  }
+
+
+
+
+.container{
+  margin-top: 11vh;
+  background-color: rgb(16, 16, 16);
+  border-radius: 15px;
+  margin-left: 0.5%;
+
+}
+
+  @media (max-width: 500px) {
+    .container{
+      height: auto;
+      flex-direction: column;
+    }
+  }
+
+  
+
+
+
+
+
+
+#results {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+}
+
+.singolo {
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.singolo img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 16px;
+}
+
+.singolo h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+}
+
+.singolo .artista {
+  font-size: 14px;
+  color: #ccc;
+  margin: 2px 0 0 0;
+}
+
+.singolo .info {
+  display: flex;
+  flex-direction: column;
+}

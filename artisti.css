@@ -1,0 +1,56 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.singolo {
+  background-color: #121212;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.singolo:hover {
+  transform: scale(1.05);
+}
+
+.singolo img {
+  width: 100%;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.singolo h1 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.singolo p {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #1db954;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
